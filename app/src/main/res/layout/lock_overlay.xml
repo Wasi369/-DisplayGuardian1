@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/root"
+    android:layout_width="match_parent" android:layout_height="match_parent"
+    android:orientation="vertical" android:gravity="center" android:padding="28dp"
+    android:background="@drawable/gradient_lock">
+    <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Display Guardian" android:textColor="#FFFFFF" android:textSize="24sp" android:textStyle="bold" />
+    <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="10dp" android:text="Enter password to return to normal" android:textColor="#D8D8E8" android:textSize="15sp" />
+    <EditText android:id="@+id/password" android:layout_width="260dp" android:layout_height="wrap_content" android:layout_marginTop="22dp" android:hint="Password" android:inputType="textPassword" android:textColor="#FFFFFF" android:textColorHint="#9999AA" android:singleLine="true" />
+    <Button android:id="@+id/unlock" android:layout_width="180dp" android:layout_height="wrap_content" android:layout_marginTop="16dp" android:text="UNLOCK" />
+</LinearLayout>
