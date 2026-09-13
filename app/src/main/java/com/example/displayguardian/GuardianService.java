@@ -86,7 +86,7 @@ public class GuardianService extends Service {
         if (locked.get() || !getSharedPreferences("guardian", MODE_PRIVATE).getBoolean("enabled", false)) return;
         if (!Settings.canDrawOverlays(this)) return;
         locked.set(true);
-        final View view = getLayoutInflater().inflate(R.layout.lock_overlay, null);
+        final View view = LayoutInflater.from(this).inflate(R.layout.lock_overlay, null);
         lockView = view;
         EditText password = view.findViewById(R.id.password);
         Button unlock = view.findViewById(R.id.unlock);
