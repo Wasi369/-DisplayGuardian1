@@ -1,3 +1,1 @@
-<resources>
-    <string name="app_name">Display Guardian</string>
-</resources>
+<resources> <string name="app_name">Display Guardian</string> <string name="accessibility_service_description">Keeps Display Guardian idle timer synchronized with phone activity.</string> </resources>
